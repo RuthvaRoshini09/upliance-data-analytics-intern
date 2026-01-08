@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Upliance Data Analytics Assignment</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h2>Data Analytics Dashboard</h2>
+
+    <label>Data View:</label>
+    <select id="view">
+      <option value="orders">Orders</option>
+      <option value="sessions">Sessions</option>
+      <option value="calls">Calls</option>
+    </select>
+
+    <label>Time Granularity:</label>
+    <select id="time">
+      <option value="daily">Daily</option>
+      <option value="weekly">Weekly</option>
+      <option value="monthly">Monthly</option>
+    </select>
+
+    <p>
+      <b>Derived Metric (Orders / Calls):</b>
+      <span id="metric">0%</span>
+    </p>
+
+    <canvas id="chart"></canvas>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

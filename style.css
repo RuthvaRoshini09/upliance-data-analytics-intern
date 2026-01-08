@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f5f7fa;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+select {
+  margin-right: 20px;
+  padding: 5px;
+}
+
+p {
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+canvas {
+  margin-top: 30px;
+  max-width: 600px;
+}
